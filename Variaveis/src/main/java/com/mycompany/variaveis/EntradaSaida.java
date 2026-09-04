@@ -33,7 +33,7 @@ public static void main(String[] args)  {
     nome= entradaTexto.nextLine();
     
     System.out.println("Digite a raca do seu pet:");
-    nome= entradaTexto.nextLine();
+    raca= entradaTexto.nextLine();
     
     System.out.println("Digite a idade do seu pet:");
     idade= entradaNumero.nextInt();
@@ -42,11 +42,13 @@ public static void main(String[] args)  {
     peso= entradaNumero.nextDouble();
     
     System.out.println("seu pet e vacinado?");
-    System.out.println("digite true para sim, ou 0 para nao");
+    System.out.println("digite true para sim, ou false para nao");
     foiVacinado= entradaLogica.hasNext();
     
     System.out.println("bem-vindo(a) "+nome);
-    
+    System.out.println("voce e da raca"+ raca +" e tem "+idade+" anos");
+    System.out.println("seu dono informou que seu peso e "+peso+"kg");
+    System.out.println("e que seu status de vacina e "+foiVacinado);
     
     
     
